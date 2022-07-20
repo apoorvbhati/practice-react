@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.parent-container {
+  padding: 30px;
+
+  .child-container {
+    padding: 0 10%;
+
+    .display-container {
+      padding: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      /* width: 80%; */
+      /* height: 30%; */
+      text-align: center;
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-weight: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+
