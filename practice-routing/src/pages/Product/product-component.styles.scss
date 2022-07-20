@@ -1,0 +1,28 @@
+section {
+    padding: 2rem;
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 3rem;
+        width: 70%;
+        margin: 0 auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+        .img-container {
+            padding: 2rem;
+    
+            img {
+                height: 300px;
+                width: auto;
+            }
+        }
+
+        .link-container {
+            padding: 1rem;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            text-align: center;
+        }
+    }
+}
