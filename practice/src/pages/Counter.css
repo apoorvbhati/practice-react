@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0px;
+    height: 100%;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    border: 1px solid #555;
+    background-color: aqua;
+}
+
+.content p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.content button {
+    margin: 20px;
+}

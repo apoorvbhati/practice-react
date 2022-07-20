@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .parent-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list-container {
+    /* border: 1px solid green; */
+  /*   display: flex; */
+  /*   align-items: center;
+    justify-content: center; */
+    margin: 20px 0px;
+  }
+  
+  ul {
+    display: flex;
+  /*   align-items: center;
+    justify-content: center; */
+    margin: 10px;
+  }
+  
+  ul li {
+    list-style-type: none;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 5px;
+  }
