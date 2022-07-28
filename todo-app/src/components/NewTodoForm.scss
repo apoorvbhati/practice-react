@@ -1,0 +1,39 @@
+.form-container {
+    margin-top: 70px;
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        label {
+            font-size: 35px;
+            font-weight: lighter;
+            min-width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        input {
+            // margin-top: 20px;
+            border: none;
+            display: block;
+            padding: 15px 20px;
+            font-size: 17px;
+            flex-grow: 1;
+            margin-right: 20px;
+            height: 100%;
+            // margin-bottom: 20px;
+        }
+    
+        button {
+            // margin-top: 20px;
+            border: none;
+            display: inline;
+            background-color: #ff6666;
+            color: white;
+            border: 1px solid rgba($color: #f6f6f6, $alpha: 0.7);
+            padding: 15px 20px;
+            cursor: pointer;
+        }
+    }
+}

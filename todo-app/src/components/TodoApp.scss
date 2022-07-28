@@ -1,0 +1,33 @@
+.parent-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    .child-container {
+        background-color: #ff6666;
+        box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, 0.1);
+        width: 70%;
+        padding: 40px 60px;
+
+        .header-container {
+            margin-bottom: 30px;
+
+            h3 { 
+                // float: left;
+                font-size: 350%;
+                font-weight: 100;
+            }
+
+            p {
+                letter-spacing: 1px;
+                font-size: 20px;
+                font-weight: 250;
+                padding-bottom: 10px;
+                border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}

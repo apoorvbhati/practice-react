@@ -1,0 +1,82 @@
+.task-container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+    .todo-task {
+        padding: 20px 20px;
+        position: relative;
+        font-size: 20px;
+    }
+
+    .todo-task.completed {
+        opacity: 0.6;
+    }
+
+    .todo-task.completed:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0.7rem;
+        display: block;
+        width: 0%;
+        height: 2px;
+        background: #fff;
+        animation: strikeitem 0.5s ease-out 0s forwards;
+    }
+
+    @keyframes strikeitem {
+        to {
+          width: calc(100% + -1.3rem);
+        }
+    }
+
+    .icons-container {
+        align-items: flex-end;
+        height: 100%;
+
+        button {
+            border: none;
+            height: 100%;
+            background: none;
+            color: #f6f6f6;
+            font-size: 17px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px 30px;
+
+        input {
+            // margin-top: 20px;
+            border: none;
+            display: block;
+            padding: 15px 20px;
+            font-size: 17px;
+            flex-grow: 1;
+            margin-right: 5px;
+            height: 100%;
+            // margin-bottom: 20px;
+        }
+
+        button {
+            // margin-top: 20px;
+            border: none;
+            display: inline;
+            background-color: #ff6666;
+            color: white;
+            border: 1px solid rgba($color: #f6f6f6, $alpha: 0.7);
+            padding: 15px 20px;
+            cursor: pointer;
+        }
+    }
+}
